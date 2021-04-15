@@ -1,0 +1,155 @@
+<style>
+
+p {
+
+	color:red;
+
+  }
+
+a:link{
+color:purple;
+}
+
+a:visited{
+color:green;
+}
+
+a:hover{
+	hotpink;
+}
+
+a:active{
+color:orange;
+}
+
+body {
+	background-color: rgb(248,248,248);
+     }
+table,th, td{
+border: 2px solid black;
+}
+
+h1 {
+	color: blue;
+	border:2px solid green;
+	width:auto;
+	margin: 10px;
+	text-align:center;
+   }
+.right {
+	height:150px;
+	width:33.33333%;
+	background-color:white;	
+	float:left;
+	border:1px solid gray;
+	text-align: center;
+  	padding: 0px;
+   }
+.left{
+	height:150px;
+	width:33%;
+	background-color:white;
+	float:left;
+	border:1px solid purple;
+	text-align: center;
+	padding: 0px;
+}
+.center{
+	height:150px;
+	width:33%;
+	background-color:white;
+	float:left;
+	border:1px solid orange;
+	text-align: center;
+	padding:0px;
+}
+
+
+
+/*using flex to align borders right, left, center
+#container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	background-color:white;
+	}
+#container>div{
+	width:100px;
+	width:33.3333%;
+	height:100px;
+	border:2px solid orange;
+	}
+*/
+
+
+.divheight{
+	height:auto;
+	}
+
+.nav 	{
+	height: 100px;
+	width:auto;
+	background-color:orange;
+	img: url("sap.gif");
+	}
+footer{
+	height:autopx;
+	width:auto;
+	background-color:orange;
+	}
+
+.prfimg {
+	width:200px;
+	height:300px;
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Veranda;
+filter: blur(2px);
+    }
+
+.profile {
+
+	border-style:dotted;
+	border-radius:5px;
+	border-color:orange;
+	border-width:5px;
+	font-size: 25px;
+	text-align:center;
+	line-height:auto;
+	margin:auto;
+       }
+
+.index {
+	color: blue;
+	text-align:center;
+	float:center;
+	}
+.about	{
+	color:navy;
+	font-family:varanda;
+	font-size:20px;
+	}
+
+/*
+.index {
+	background-image:url("sap.gif");
+	background-repeat: no-repeat;
+	color: blue;
+	text-align:center;
+	background-size:contain;
+       }
+*\
+
+
+.h3 {
+  	
+	float:right;
+    }
+
+
+/* css for signup form - not working*\
+
+</style>
